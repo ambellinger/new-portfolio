@@ -123,3 +123,19 @@ padding-bottom: 40px;
     margin-bottom: 10px;
     text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+
+    #sideimage {
+        position: fixed;
+        height: 100%;
+        top: 0;
+        
+    }
+    .navigation a {
+        display: inline;
+        color: white; 
+        
+
+    }
+}
